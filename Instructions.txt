@@ -1,0 +1,29 @@
+v1.1
+
+==Setup and Starting==
+If you're on Windows, double click "Start". Requires Java.
+
+If you're on something else, make sure you have Java installed, find your terminal (command-line) application, point it to this directory, and type:
+
+java -jar FileDownloader.jar
+
+When creating a local script to start the program, be sure you enter your OS's "pause" command after the launch line so that you can see error messages (should there be any).
+
+
+==Usage==
+The extensions.conf file allows you to select which file types you'd like to download. Enter one extension per line, and do not include the preceding period (png not .png). You can enter a comment by starting a line with the # character.
+
+
+==Copyright==
+Program and source copyright 2012 Cullin Moran, except for the jsoup and Apache bits. You'll find their licenses in the "Licenses" folder.
+
+Feel free to redistribute, but include this instructions file.
+
+
+==Changelog==
+v1.1
+	Added extensions.conf support
+	Fixed crash when saving a file whose URL contained '?' or '#'
+
+v1.0
+	Initial release
